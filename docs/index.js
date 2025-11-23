@@ -147,7 +147,7 @@ aumenta();
             bx2.style.backgroundColor = "#000"
             bx3.style.backgroundColor = "#000"
             bx4.style.backgroundColor = "#000"
-            bx5.style.backgroundColor = "#000"
+
             bx.style.color = "#FFF"
             bx2.style.color = "#FFF"
             bx3.style.color = "#FFF"
