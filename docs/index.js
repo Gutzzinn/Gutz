@@ -1,9 +1,4 @@
 window.onload = () => {
-    let si = document.getElementById("box");
-    let si2 = document.getElementById("box2");
-    let si3 = document.getElementById("box3");
-    let si4 = document.getElementById("box4");
-    let si5 = document.getElementById("box5");
     let si6 = document.getElementById("box6");
     let t1 = document.getElementById("lc");
     let t2 = document.getElementById("lcc");
@@ -15,11 +10,20 @@ window.onload = () => {
        let foo6 = document.getElementById("fo6");
      let foo7 = document.getElementById("fo7");
        let ftr = document.getElementById("ft");
+
+
+       
+       // nao precisa no codigo
      let bx= document.getElementById("box");
      let bx2 = document.getElementById("box2");
      let bx3 = document.getElementById("box3");
      let bx4 = document.getElementById("box4");
      let bx5 = document.getElementById("box5");
+     // nao precisa no codigo
+
+
+
+
     let cor = 0;
     let cor2 = 0;
     let cor3 = 0;
@@ -31,19 +35,9 @@ window.onload = () => {
     let bac = document.body
  
     function loop() {
-        si.style.boxShadow  = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-        si2.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-        si3.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-        si4.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-        si5.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         si6.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
 
-        si.style.borderColor  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-        si2.style.borderColor = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-        si3.style.borderColor = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-        si4.style.borderColor = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-        si5.style.borderColor = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         si6.style.borderColor  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         t2.style.color  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.color  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
