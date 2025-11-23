@@ -18,7 +18,7 @@ window.onload = () => {
      let bx2 = document.getElementById("box2");
      let bx3 = document.getElementById("box3");
      let bx4 = document.getElementById("box4");
-     let bx5 = document.getElementById("box5");
+ 
      // nao precisa no codigo
 
 
@@ -37,7 +37,10 @@ window.onload = () => {
     function loop() {
         si6.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.boxShadow = `0 0 15px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
-
+         bx.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+  bx2.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+  bx3.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
+  bx4.style.boxShadow = `0 0 5px rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         si6.style.borderColor  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         t2.style.color  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
         ftr.style.color  = ` rgba(${cor}, ${cor2},  ${cor3}, 1)`;
@@ -149,7 +152,6 @@ aumenta();
             bx2.style.color = "#FFF"
             bx3.style.color = "#FFF"
             bx4.style.color = "#FFF"
-            bx5.style.color = "#FFF"
            foo.style.color = "#cdcdcdff"
            foo2.style.color = "#cdcdcdff"
            foo3.style.color = "#cdcdcdff"
@@ -214,7 +216,7 @@ foo4.addEventListener("mouseleave", () => {
             bx2.style.color = "#000"
             bx3.style.color = "#000"
             bx4.style.color = "#000"
-            bx5.style.color = "#000"
+
               foo.style.color = "#281d28ff"
              foo2.style.color = "#281d28ff"
              foo3.style.color = "#281d28ff"
